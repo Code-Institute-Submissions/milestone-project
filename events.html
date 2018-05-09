@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.0/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Monkees website</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="header">
+            <div class="row">
+                <a href="index.html">
+                    <div class="header-image"></div>
+                </a>
+            </div>
+            <div class="row">
+                <ul id="nav" class="list-inline clearfix">
+                    <li class="col-sm-4 ul-menu-color menuitem">
+                        <a href="music.html" class="hvr-pulse-grow"><span>Music</span></a>
+                    </li>
+                    <li class="col-sm-4 ul-menu-color menuitem">
+                        <a href="gallery.html" class="hvr-pulse-grow"><span>Gallery</span></a>
+                    </li>
+                    <li class="col-sm-4 ul-menu-color menuitem">
+                        <a href="events.html" class="hvr-pulse-grow"><span>Events</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="row bg-color-contact">
+            <div>
+                <h3 class="contact-heading uppercase text-center">Organising an event?</h3>
+                <h5 class="text-center">Fill out the form below and we will contact you to discuss availability</h5>
+            </div>
+            <div class="center-form">
+                <form>
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <input type="numbers" name="phonenumber" class="form-control" id="phonenumber" placeholder="Phone number" required/>
+                    <textarea rows="5" name- "eventdetails" class="form-control" id="eventdetails" placeholder="Event details" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">Send request</button>
+                </form>
+            </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Bookings</h5>
+                <p class="inline-block"></p>
+            </div>
+            <div class="col-sm-4 ">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline social-links">
+                    <li><a target="blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="blank" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
