@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700|Exo: 100,200,300,400,500,600,700|Luckiest Guy: 100,200,300,400,500,600,700');
 
 /*---------------------------Colors--------------------------------*/
 
 .ul-menu-color {
-    background-color: #ffff00; 
+    background-color: #ffff00;
 }
 
 /*---------------------------Special paddings/margins/texts--------------------------------*/
@@ -40,6 +40,7 @@ h4 {
 header {
     min-height: 120px;
     margin: 0;
+    width: 100%;
 }
 
 #nav {
@@ -50,40 +51,39 @@ header {
     padding: 0;
 }
 
-.header {
-    width: 100%;
-}
-
 .header-image {
-    background-image: url("band-assets/images/cover2.png");
-    height: 150px;
+    background-image: url("../band-assets/images/cover2.png");
+    height: 200px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
 }
 
 .menuitem {
-    height: 120px;
+    height: 70px;
+    width: 100%;
     text-align: center;
     padding: 0;
+    border: 1px solid black;
 }
 
 .menuitem a {
     width: 100%;
     text-decoration: none;
     color: #ff0000;
-    height: 120px;
+    height: 70px;
 }
 
 .menuitem span {
     display: block;
     width: 100%;
-    padding-top: 30px;
+    padding-top: 15px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 40px;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 30px;
     font-weight: 300;
     letter-spacing: 2px;
 }
@@ -96,8 +96,6 @@ header {
 }
 
 /*---------------------------Index--------------------------------*/
-
-
 
 /*---------------------------Music--------------------------------*/
 
